@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #eaeded;
+    background-color: #f0f5ef;
     line-height: 1.4;
 }
 
@@ -199,7 +199,17 @@ ul {
     margin-bottom: 20px;
     padding-left: 5px;
 }
-
+/* ========================================
+   GRILLA DE BENEFICIOS ML
+   ======================================== */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.product-card1{
+    width: 100px;
+}
 /* ========================================
    GRILLA DE PRODUCTOS
    ======================================== */
